@@ -1,0 +1,9 @@
+Este é um ficheiro de teste para leitura.
+Cada linha contém uma frase distinta.
+O objetivo é verificar se o código consegue ler e processar corretamente.
+Algumas linhas podem ter espaços extras no final.Outras podem ter caracteres especiais como @, #, $ e &.
+Números também podem aparecer: 123, 456 e 789.
+Por fim, uma linha em branco segue abaixo:
+
+Fim do ficheiro.
+
