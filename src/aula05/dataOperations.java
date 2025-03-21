@@ -31,7 +31,7 @@ public class dataOperations {
                     month = sc.nextInt();
                     System.out.println("Enter day:");
                     day = sc.nextInt();
-                    date.set(year, month, day);
+                    date.set(day,month,year);
                     break;
                 case 2:
                     System.out.println(date.toString());

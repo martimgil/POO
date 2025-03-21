@@ -9,14 +9,20 @@ class RealEstate {
         properties.add(new Properties(quartos, localidade, preco));
     }
 
-    public void sell(int id){
-        for(int i=0; i<properties.size(); i++){
-            Properties Property = properties.get(i);
-            if(Property.getId()==id){
-                properties.remove(Property);
-                System.out.println("Imóvel " + id + " vendido.");
+    public void sell(int id) {
+        for (Properties property : properties) {
+            if (property.getId() == id) {
+                if (property.isAvailable()) {
+                    property.sell();
+                    System.out.println("Imóvel " + id + " vendido.");
+                    return;
+                } else {
+                    System.out.println("Imóvel " + id + " não está disponível.");
+                    return;
+                }
             }
         }
+        System.out.println("Imóvel " + id + " não existe.");
     }
 
     public void setAuction(int id, DateYMD dataInicio, int duracao) {
@@ -40,13 +46,13 @@ class RealEstate {
         }
     
         DateYMD dataFim = new DateYMD(dataInicio.getDay(), dataInicio.getMonth(), dataInicio.getYear());
-    
         for (int i = 0; i < duracao; i++) {
             dataFim.increment();
         }
     
         property.setAuction(dataInicio, dataFim);
     }
+    
 
     @Override
     public String toString() {
