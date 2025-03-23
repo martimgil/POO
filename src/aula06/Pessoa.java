@@ -48,8 +48,27 @@ public class Pessoa {
 
 
 
+    public void setNome(String nome) {
+        if (validarNome(nome)){
+            this.nome = nome;
+        }
+    }
+    
+
+
+    public void setCC(int cC) {
+        CC = cC;
+    }
+
+    public void setDataNasc(DateYMD dataNasc) {
+        this.dataNasc = dataNasc;
+    }
+
     @Override
     public String toString() {
         return nome+"; CC: " + CC + "; Data de Nascimento: " + dataNasc.toString();
     }
+
+
+
 }
