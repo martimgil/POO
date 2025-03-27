@@ -102,11 +102,11 @@ public class Ex2 {
 
         System.out.print("Se não for necessario alterar dar enter nesse campo");
         System.out.print("Insira o nome: ");
-        String nome = sc.next();
+        String nome = sc.nextLine(); 
         System.out.print("Insira o CC: ");
-        int CC = sc.nextInt();                    
+        String ccInput = sc.nextLine();     
         System.out.print("Insira data de nascimento (YYYY-MM-DD): ");
-        String dataInput = sc.next();
+        String dataInput = sc.nextLine();
         String[] dataInputSplit = dataInput.split("-");
         int day = Integer.parseInt(dataInputSplit[2]);
         int month = Integer.parseInt(dataInputSplit[1]);
@@ -121,7 +121,8 @@ public class Ex2 {
         if(!nome.isEmpty()){
             contactoSelecionado.setNome(nome);
         }
-        if(CC!=0){
+        if (!ccInput.isEmpty()) {
+            int CC = Integer.parseInt(ccInput);
             contactoSelecionado.setCC(CC);
         }
         if(!dataInput.isEmpty()){
