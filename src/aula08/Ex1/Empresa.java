@@ -18,4 +18,43 @@ public class Empresa {
     public void adicionarViatura (Veiculo veiculo){
         veiculos.add(veiculo);
     }
+
+    public void listarVeiculos(){
+        for(Veiculo veiculo: veiculos){
+            System.out.println(veiculo.toString());
+        }
+    }
+
+    public Veiculo maisQuilometros(){
+        int valor = 0;
+        Veiculo maior = null; 
+        for(Veiculo veiculo: veiculos){
+            int distancia = veiculo.distanciaTotal();
+
+            if (distancia > valor){
+                valor = distancia;
+                maior = veiculo;
+            }
+        }
+
+        return maior;
+    }
+
+
+    public Veiculo menosQuilometros(){
+        int valor = veiculos.get(0).distanciaTotal();
+        Veiculo menor = null;
+
+        for(Veiculo veiculo: veiculos){
+            int distancia = veiculo.distanciaTotal();
+            if(distancia<valor){
+                valor = distancia;
+                menor = veiculo;
+
+            }
+        }
+
+        return menor;
+    }
+
 }

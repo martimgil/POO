@@ -33,4 +33,12 @@ public abstract class Veiculo implements IKmPercorridos {
         return this.distanciaTotal;
     }
 
+    @Override
+    public String toString() {
+        return "Veiculo [matricula=" + matricula + ", marca=" + marca + ", modelo=" + modelo + ", potencia=" + potencia
+                + ", distanciaTotal=" + distanciaTotal + ", ultimoTrajeto=" + ultimoTrajeto + "]";
+    }
+
+    
+
 }
