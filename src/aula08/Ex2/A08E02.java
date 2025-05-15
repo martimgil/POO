@@ -1,3 +1,5 @@
+package aula08.Ex2;
+
 public class A08E02 {
 
     public static void main(String[] args) {
@@ -19,7 +21,7 @@ public class A08E02 {
                 }
             } while (ingred < 3);
 
-            ementa.addPrato(pratos[i], Prato.DiaSemana.values()[i]);
+            ementa.addPrato(pratos[i], Ementa.DiaSemana.values()[i]);
         }
         System.out.println("\nEmenta final\n--------------------");
         System.out.println(ementa);
@@ -29,16 +31,16 @@ public class A08E02 {
         Alimento res = null;
         switch ((int) (Math.random() * 4)) {
             case 0:
-                res = new Carne("Frango", 22.3, 345.3, 300);
+                res = new Carne("Frango", 22, 345, 300);
                 break;
             case 1:
-                res = new Peixe(31.3, 25.3, 200, "Congelado");
+                res = new Peixe(31, 25, 200, "Congelado");
                 break;
             case 2:
-                res = new Legume("Couve Flor", 21.3, 22.4, 150);
+                res = new Legume("Couve Flor", 21, 22, 150);
                 break;
             case 3:
-                res = new Cereal("Milho", 19.3, 32.4, 110);
+                res = new Cereal("Milho", 19, 32, 110);
                 break;
         }
         return res;

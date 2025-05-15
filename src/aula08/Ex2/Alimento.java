@@ -1,6 +1,7 @@
 package aula08.Ex2;
 
 public abstract class Alimento {
+    private String nome;
     private double proteinas;
     private double calorias;
     private double peso;
@@ -58,9 +59,8 @@ public abstract class Alimento {
 
     @Override
     public String toString() {
-        return "Alimento [proteinas=" + proteinas + ", calorias=" + calorias + ", peso=" + peso + "]";
+        return String.format("%s, Proteinas %.1f, calorias %.1f, Peso %.1f", nome, proteinas, calorias, peso);
     }
-
     
     
 

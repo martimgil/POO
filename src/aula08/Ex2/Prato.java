@@ -6,8 +6,8 @@ import java.lang.Comparable;
 
 public class Prato implements Comparable<Prato> {
 
-    private final String nome;
-    private final List<Alimento> listaAlimentos;
+    private String nome;
+    private List<Alimento> listaAlimentos;
 
     public enum DiaSemana {
         SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA, SABADO, DOMINGO;

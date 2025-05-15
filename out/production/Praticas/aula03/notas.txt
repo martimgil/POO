@@ -1,0 +1,10 @@
+Ana\t8.5\t9.0
+Bruno\t7.0\t6.5
+Carla\t9.5\t8.0
+Daniel\t6.0\t7.5
+Eva\t8.0\t8.5
+Filipe\t7.5\t9.0
+Gustavo\t9.0\t7.0
+Helena\t6.5\t8.0
+Inês\t8.5\t7.5
+João\t7.0\t9.5

@@ -3,7 +3,7 @@ package aula08.Ex2;
 public class Legume extends Alimento{
     private String nome;
 
-    public Legume(String nome, int proteinas, int calorias, int peso) {
+    public Legume(String nome,int proteinas, int calorias, int peso) {
         super(proteinas, calorias, peso);
         this.nome = nome;
     }
