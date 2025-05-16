@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.io.IOException;
 
 public class EnergyUsageReportTester {
-
     public static void main(String[] args) throws IOException {
         
         // Create an instance of the EnergyUsageReport class

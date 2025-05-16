@@ -61,7 +61,7 @@ public class Gradebook {
         System.err.println("Erro: Estudante com o Name '" + Name + "' não encontrado.");
         return null; 
     }
-    
+
     public double calculateAverageGrade(String name){
         for (Student student : students) {
             if (student.getName().equalsIgnoreCase(name)) {
@@ -78,4 +78,13 @@ public class Gradebook {
         }
         return 0.0;
     }
+
+    public void printAllStudents(){
+        String resultado = "";
+        for(Student student: students){
+            resultado += (student.getName() + " " + student.getGrades()+"\n");
+        }
+        System.out.println(resultado);
+    }
+    
 }
