@@ -1,6 +1,6 @@
 package aula06;
 
-class DateYMD {
+public class DateYMD {
     int day;
     int month;
     int year;
