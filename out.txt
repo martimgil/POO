@@ -1,0 +1,7 @@
+Contact [id=0, nome=Maria Joaquina, numero=911234567, email=joaquina@ua.pt, dataNascimento=1985-01-01]
+Contact [id=1, nome=João Miguel, numero=911234568, email=joao@ua.pt, dataNascimento=1988-01-01]
+Contact [id=2, nome=Maria Santos, numero=918765432, email=maria@ua.pt, dataNascimento=1998-03-20]
+Contact [id=3, nome=Pedro Costa, numero=925678901, email=pedro@ua.pt, dataNascimento=2002-07-05]
+Contact [id=4, nome=Ana Sousa, numero=911234567, email=ana@ua.pt, dataNascimento=1995-11-30]
+Contact [id=5, nome=Rui Pereira, numero=919876543, email=rui@ua.pt, dataNascimento=1990-02-15]
+Contact [id=6, nome=João Silva, numero=912345678, email=joao@ua.pt, dataNascimento=2000-10-12]
