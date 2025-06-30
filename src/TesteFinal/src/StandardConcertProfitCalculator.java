@@ -1,3 +1,5 @@
+package TesteFinal.src;
+
 public class StandardConcertProfitCalculator implements IConcertProfitCalculator {
     public double calculateConcertProfit(Concert c){
         double custo = 1500*(c.getDuracao()/60);

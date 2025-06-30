@@ -1,4 +1,3 @@
-
 public class TransactionTester {
     public static void main(String[] args) {
         TransactionManager tm = new TransactionManager();
