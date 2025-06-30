@@ -1,0 +1,30 @@
+1;23.0;Construcao Parede;1150.0
+2;3.0;Pequena fuga de agua;150.0
+3;28.0;Isolamento telhado;1260.0
+4;11.0;Pintura exterior;550.0
+5;18.0;Construcao drenagens;900.0
+6;1.0;Substituir louca lavabo;50.0
+7;24.0;Construir marquise;1200.0
+8;17.0;Construir novo acesso;765.0
+9;10.0;Alargar porta;450.0
+10;28.0;Construir anexo;1260.0
+11;5.0;Instalar relvado;225.0
+12;3.0;Desentupir canalizacao;150.0
+13;4.0;Instaçacao maquina com torneiras;200.0
+14;12.0;Instalar mosaico interior;600.0
+15;13.0;Construir chamine;585.0
+16;15.0;Substituir banheira;750.0
+17;7.0;Instalacao parquet;315.0
+18;25.0;Construcao cozinha;1250.0
+19;16.0;Construcao armarios quarto;800.0
+20;12.0;Instalacao eletrica loja;540.0
+21;2.0;Mudar lampada inacessivel;100.0
+22;27.0;Supressao parede, reconstrucao de divisoes;1215.0
+23;21.0;Construcao jardim com zona repouso;1050.0
+24;26.0;Construcao piscina;1300.0
+25;6.0;Pintura interior;270.0
+26;19.0;Instalacao AC;950.0
+27;9.0;Instalacao paineis solares;405.0
+28;22.0;Construcao cozinha;1100.0
+29;14.0;Pintura exterior;700.0
+30;0.6;Substituir cobertura escoamento;30.0
