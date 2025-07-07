@@ -1,14 +1,14 @@
-*.py linguist-language=Python
-*.html linguist-language=HTML
-*.js linguist-language=JavaScript
-*.jsx linguist-language=JavaScript
-*.ts linguist-language=TypeScript
-*.tsx linguist-language=TypeScript
-*.css linguist-language=CSS
+*.java linguist-language=Java
 
-/node_modules/** !linguist-vendored
-/public/** !linguist-vendored
-/dist/** !linguist-vendored
+/bin/** !linguist-vendored
+/out/** !linguist-vendored
+/lib/** !linguist-vendored
+/target/** !linguist-vendored
 /build/** !linguist-vendored
-/venv/** !linguist-vendored
-/__pycache__/** !linguist-vendored
+
+*.xml linguist-language=XML
+*.gradle linguist-language=Groovy
+*.properties linguist-language=INI
+*.json linguist-language=JSON
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
